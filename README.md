@@ -8,3 +8,10 @@ Run:
 ```
 docker-compose up
 ```
+
+Run migrations:
+```
+cd user-service
+docker-compose exec users-service bash
+yarn db:migrate
+```
