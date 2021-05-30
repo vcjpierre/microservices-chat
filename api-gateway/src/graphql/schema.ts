@@ -4,8 +4,6 @@ const schema = gql`
   scalar Date
 
   type User {
-    id: ID!
-    username: String!
     username: ID!
   }
 
